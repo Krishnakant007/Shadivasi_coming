@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy • Shaadivasi</title>
+  <meta name="description" content="Privacy Policy for Shaadivasi app and website" />
+  <style>
+    :root{
+      --bg: #0f1226;
+      --fg: #e9ecf8;
+      --muted: #aab1d6;
+      --accent: #7c9aff;
+      --card: rgba(255,255,255,0.06);
+      --glass: rgba(255,255,255,0.12);
+      --shadow: 0 10px 25px rgba(0,0,0,0.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif;
+      color:var(--fg);
+      background: radial-gradient(1200px 800px at 20% 20%, #1a1f43 0%, transparent 60%),
+                  radial-gradient(1000px 700px at 80% 80%, #15204d 0%, transparent 60%),
+                  var(--bg);
+      display:flex;
+      justify-content:center;
+      align-items:flex-start;
+      padding:40px 20px;
+    }
+    .wrap{
+      width:min(820px, 96vw);
+      background: linear-gradient(180deg, var(--card), transparent);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+      padding: clamp(24px, 4vw, 40px);
+    }
+    h1,h2{color:var(--fg); margin-top:0}
+    h1{font-size: clamp(28px, 5vw, 40px); text-align:center; text-transform:uppercase;}
+    h2{font-size: clamp(20px, 4vw, 26px); margin-top:28px;}
+    p,li{color:var(--muted); line-height:1.6; font-size:16px;}
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    ul{padding-left:22px}
+    footer{text-align:center; margin-top:40px; font-size:13px; color:var(--muted);}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Privacy Policy</h1>
+    <p><strong>Last updated:</strong> October 18, 2025</p>
+
+    <p>Shaadivasi ("we", "our", or "us") operates the Shaadivasi mobile application and website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service.</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>We do not collect personal data unless required for app functionality. The following permissions may be requested by the Shaadivasi app:</p>
+    <ul>
+      <li><strong>Camera:</strong> Used only for taking profile photos or scanning QR codes.</li>
+      <li><strong>Record Audio:</strong> Used only for in-app voice or video features.</li>
+      <li><strong>Storage (Read/Write):</strong> Used for saving or uploading media files.</li>
+      <li><strong>Internet Access:</strong> Required to connect to our secure servers.</li>
+    </ul>
+
+    <h2>2. Data Usage</h2>
+    <p>The data accessed through permissions is used strictly for its intended feature and never stored, shared, or transmitted to third parties without your consent.</p>
+
+    <h2>3. Third-Party Services</h2>
+    <p>We may use third-party services such as Firebase or analytics tools to improve our app’s performance. These services have their own privacy policies.</p>
+
+    <h2>4. Data Security</h2>
+    <p>We take reasonable measures to protect your data from unauthorized access or misuse. However, please note that no method of transmission over the Internet is 100% secure.</p>
+
+    <h2>5. Children’s Privacy</h2>
+    <p>Shaadivasi is not intended for children under the age of 13. We do not knowingly collect personal data from minors.</p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions or suggestions about our Privacy Policy, feel free to contact us at:</p>
+    <p><strong>Email:</strong> support@shaadivasi.in</p>
+
+    <footer>© <span id="year"></span> Shaadivasi • All rights reserved.</footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
